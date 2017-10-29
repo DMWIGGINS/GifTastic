@@ -1,8 +1,59 @@
-#topics-chosen, #topics-info {
-    margin-left: 10px;
+.container {
+    background-image: url(../images/symphony.png);
+}
 
+#topics-chosen,
+#topics-info {
+    margin-left: 10px;
 }
 
 h1 {
     text-align: center;
+}
+
+button {
+    background-color: orange;
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(139, 100, 177);
+    color: yellow;
+    font-family: 'Merriweather', serif;
+}
+
+#side-panel {
+    background-color: rgb(139, 100, 177);
+    padding-top: 15px;
+}
+
+#topics-info {
+    padding-bottom: 10px
+}
+
+.box {
+    margin: 10px;
+    float: left;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+p {
+    background-color: rgb(139, 100, 177);
+    color: white;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: gray;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: gray;
 }
